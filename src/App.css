@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url('../src/resources/Hero-Background-notecode@2x.png');
+  height: 100vh;
+  background-size: cover;
+  background-color: #7e4ce1;
 }
 
 .App-logo {
@@ -32,6 +36,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
