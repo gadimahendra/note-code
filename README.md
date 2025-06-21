@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# NoteCode - Code Sharing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NoteCode is a simple code-sharing application that allows users to store and share coding snippets easily. This project was developed as a fullstack challenge to test and demonstrate basic skills in front-end and back-end development. The application enables users to create, save, and share code snippets with unique IDs.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [User Stories](#user-stories)  
+- [License](#license)  
+- [Live Demo](#live-demo)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create and share code snippets with a unique ID.  
+- View default HTML snippet upon first load.  
+- Save code snippets with a chosen language and theme.  
+- Disable the Share button until edits are made after saving.  
+- Responsive design for all devices.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Front-end:** React, TailwindCSS, React Router  
+- **Back-end:** Node.js, Express  
+- **Database:** MongoDB, Mongoose 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/gadimahendra/note-code
+cd note-code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- Open the application in your web browser.
+- By default, an HTML snippet will be displayed.
+- Edit the snippet and choose your preferred language and theme.
+- Click the Share button to generate a unique ID for your snippet.
+- Use the generated URL to share your code snippet with others.
+- The Share button will be disabled until you make further edits to the code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## User Stories
 
-### Code Splitting
+- Create a Coding Sharing App - NoteCode following given design.
+- By default, users should see an HTML given snippet. See Code Guide for default HTML code.
+- When users select the Share button, a new ID should be generated, and users can access the saved code with the generated ID. See Code Guide for more details.
+- After code is saved and shared, Share button should be disabled until users make an edit.
+- Users can choose the language and theme they want to save and share.
+- The application should be responsive on all devices.
+- Deploy the solution and submit Repository URL and Demo URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##- License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## - Live Demo
