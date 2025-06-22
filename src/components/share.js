@@ -7,7 +7,7 @@ import { createNote } from "../services/api.note";
 import toast from 'react-hot-toast';
 import link from '../../src/resources/link.svg';
 
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Editor from '@monaco-editor/react';
 
 
@@ -45,7 +45,6 @@ function ShareCom() {
     const [dis, setButton] = useState(false)
     const navigate = useNavigate()
     const [isShared, sharedRes] = useState(false)
-    let [isLink, setIsLink] = useState(true);
     let [id, setId] = useState(0)
 
     function changeTheme(event) {
@@ -102,7 +101,6 @@ function ShareCom() {
     }
 
     function codeHandler(event) {
-
         setButton(false)
         sharedRes(false)
         setCode(event);
@@ -110,14 +108,10 @@ function ShareCom() {
     }
 
     function handleEditorDidMount(editor, monaco) {
-        // You can now access the editor API
-        editor.focus(); // Example: Focus the editor on load
-
-        // You can also interact with Monaco itself
-        console.log('Editor mounted!', editor, monaco);
+        editor.focus();
     }
 
-    // const [isModified, setIsModified] = useState(false);
+
 
     return (
         <div className="relative">
@@ -163,7 +157,7 @@ function ShareCom() {
                             </select>
 
                             <div className="pointer-events-none absolute right-[18px] top-1/2 -translate-y-1/2 text-[#364153]">
-                                <img src={downArrow} />
+                                <img alt="downarrow" src={downArrow} />
                             </div>
                         </div>
 
@@ -180,7 +174,7 @@ function ShareCom() {
                             </select>
 
                             <div className="pointer-events-none absolute right-[10px] top-1/2 -translate-y-1/2 text-[#364153]">
-                                <img src={downArrow} />
+                                <img alt="downarrow" src={downArrow} />
                             </div>
                         </div>
 
@@ -205,7 +199,7 @@ function ShareCom() {
                             className="bg-[#406AFF] disabled:bg-gray-400 rounded-[15px] ml-2 text-[#FFFFFE] px-[20px] flex items-center py-[10px]"
                             type="button"
                         >
-                            <img className="pr-2" src={shareIcon} />
+                            <img className="pr-2" alt="share" src={shareIcon} />
                             Share
                         </button>
 
@@ -214,10 +208,6 @@ function ShareCom() {
             </div>
 
         </div>
-
-
-
-
     )
 }
 

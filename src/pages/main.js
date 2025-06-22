@@ -8,7 +8,7 @@ function Main() {
         <>
             <div className="App p-5 d-flex justify-center ">
                 <div className='flex justify-center'>
-                    <img className='mt-5' src={NoteCodeLogo} />
+                    <img alt='logo' className='mt-5' src={NoteCodeLogo} />
                 </div>
                 <div className='mt-8 p-3 '>
                     <h1 className='text-[32px] font-semibold '>Create & Share </h1>
