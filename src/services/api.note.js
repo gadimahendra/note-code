@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000'
+const baseUrl = 'https://note-code-backend.vercel.app'
 // import toast from 'react-hot-toast';
 
 export async function createNote(obj) {
