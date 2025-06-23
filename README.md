@@ -65,10 +65,11 @@ npm install
 - The application should be responsive on all devices.
 - Deploy the solution and submit Repository URL and Demo URL.
 
-##- License
 
-## - Live Demo
-Check out the live demo of the application [here](https://note-code-gadimahendras-projects.vercel.app/)
+## 🚀 Live Demo
+
+Check out the live demo of the application 👉 [Click Here](https://note-code-gadimahendras-projects.vercel.app/)
+
 
 
 
