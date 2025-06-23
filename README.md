@@ -19,11 +19,9 @@ NoteCode is a simple code-sharing application that allows users to store and sha
 
 ## Features
 
-- Create and share code snippets with a unique ID.  
-- View default HTML snippet upon first load.  
-- Save code snippets with a chosen language and theme.  
-- Disable the Share button until edits are made after saving.  
-- Responsive design for all devices.  
+- Users can create and update code snippets via REST APIs  
+- RESTful endpoints implemented using Express.js  
+- MongoDB used for storing and managing code snippets securely  
 
 ---
 
@@ -38,8 +36,8 @@ NoteCode is a simple code-sharing application that allows users to store and sha
 Clone the repository:
 
 ```bash
-git clone https://github.com/gadimahendra/note-code
-cd note-code
+git clone https://github.com/gadimahendra/note-code-backend.git
+cd note-code-backend
 
 npm install
 
@@ -63,7 +61,7 @@ npm install
 - After code is saved and shared, Share button should be disabled until users make an edit.
 - Users can choose the language and theme they want to save and share.
 - The application should be responsive on all devices.
-- Deploy the solution and submit Repository URL and Demo URL.
+
 
 
 ## 🚀 Live Demo
