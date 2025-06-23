@@ -60,7 +60,7 @@ npm install
 - When users select the Share button, a new ID should be generated, and users can access the saved code with the generated ID. See Code Guide for more details.
 - After code is saved and shared, Share button should be disabled until users make an edit.
 - Users can choose the language and theme they want to save and share.
-- The application should be responsive on all devices.
+
 
 
 
